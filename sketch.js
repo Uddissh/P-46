@@ -39,11 +39,11 @@ function setup() {
   trex = createSprite(200,400,20,20);
   trex.addAnimation("go", ani);
   trex.scale = 1.3;
-  trex.debug = true;
+  //trex.debug = true;
 
   invisibleGround = createSprite(200,480,1700,10);
-  //invisibleGround.visible = false; 
-  invisibleGround.debug = true;
+  invisibleGround.visible = false; 
+  //invisibleGround.debug = true;
 
   gameOver = createSprite(850, 250);
   gameOver.addImage(gameOverImg);
