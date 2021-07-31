@@ -81,11 +81,11 @@ function draw() {
   
   score = score + Math.round(getFrameRate()/60);
   
-  //if (score % 100 === 0) {
+  if (score % 100 === 0) {
     
-  // wow.play();
+   wow.play();
 
- // }
+  }
   
   if(keyDown("space") && invisibleGround.isTouching(trex)) {
     trex.velocityY = -150;
